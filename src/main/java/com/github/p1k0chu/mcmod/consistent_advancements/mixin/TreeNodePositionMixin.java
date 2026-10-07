@@ -24,10 +24,8 @@ public class TreeNodePositionMixin {
             Optional<String> name1 = node1.holder().value().name().map(Component::getString);
             Optional<String> name2 = node2.holder().value().name().map(Component::getString);
 
-            if(name1.isEmpty()) return -1;
-            if(name2.isEmpty()) return 1;
+            return name1.map(string -> name2.map(string::compareTo).orElse(1)).orElse(-1);
 
-            return name1.get().compareTo(name2.get());
         });
         return sortedChildren;
     }
