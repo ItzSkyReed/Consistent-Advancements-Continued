@@ -3,13 +3,14 @@
 	"id": "consistent-advancements",
 	"version": "${version}",
 	"name": "Consistent Advancements",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Minceraft server-side mod to sort your advancement tree alphabetically",
 	"authors": [
-		"Me!"
+		"p1kochu",
+		"ItzSkyReed"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/ItzSkyReed/Show-All-Advancements-Continued"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/consistent-advancements/icon.png",
